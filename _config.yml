@@ -1,0 +1,19 @@
+title: Web Developer
+name: Jordan Carney
+email: jordan@jordancarney.com
+description: >- # this means to ignore newlines until "baseurl:"
+  JavaScript developer currently focused on React, Redux, and Node. Lets chat!
+baseurl: "" 
+url: "http://jordancarney.com"
+freecodecame_username: jordan-carney
+twitter_username: jordancarney1
+github_username:  jordancarney1
+linkedin_username: jordancarney
+
+collections:
+  - projects
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
