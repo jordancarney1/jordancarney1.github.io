@@ -9,7 +9,13 @@
             <img class="activator" src="{{ project.mainImage | absolute_url }}" alt="{{ project.mainImageAlt }}" />
           </div>
           <div class="card-content">
-            <span class="card-title activator">{{ project.title }}<i class="material-icons right">info_outline</i></span>
+            <span class="card-title activator">
+              {% if project.shortTitle %}
+                {{ project.shortTitle }}
+              {% else %}
+                {{ project.title }}
+              {% endif %} <i class="material-icons right">info_outline</i>
+            </span>
           </div>
           <div class="card-action">
             <p><a href="{{ project.cardActionLink }}" target="_blank">{{ project.cardAction }}<i class="material-icons" aria-hidden="true">open_in_new</i></a></p>
