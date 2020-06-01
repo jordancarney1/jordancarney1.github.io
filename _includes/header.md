@@ -44,8 +44,8 @@
       <h2>Software Developer</h2>
       <ul>
         <li>JavaScript</li>
+        <li>Node</li>
         <li>React</li>
-        <li>Redux</li>
       </ul>
       <a id="cta" class="navLink" href="#portfolio">
         View Portfolio
